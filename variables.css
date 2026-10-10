@@ -1,0 +1,109 @@
+:root {
+  color-scheme: light;
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --surface-secondary: #f8fafc;
+  --text: #172033;
+  --text-secondary: #667085;
+  --border: #e5e9f0;
+  --primary: #635bff;
+  --primary-hover: #5148e5;
+  --primary-soft: #eeedff;
+  --success: #16a34a;
+  --success-soft: #dcfce7;
+  --warning: #d97706;
+  --warning-soft: #fef3c7;
+  --danger: #dc2626;
+  --danger-soft: #fee2e2;
+  --info: #2563eb;
+  --info-soft: #dbeafe;
+  --sidebar-width: 250px;
+  --header-height: 72px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --shadow: 0 4px 20px rgba(16, 24, 40, 0.05);
+  --transition: 0.2s ease;
+  --page-padding: 28px;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #10131c;
+  --surface: #191e2a;
+  --surface-secondary: #202636;
+  --text: #f1f5f9;
+  --text-secondary: #a0aabd;
+  --border: #30394b;
+  --primary: #8b83ff;
+  --primary-hover: #a29cff;
+  --primary-soft: #302d55;
+  --success: #4ade80;
+  --success-soft: #173b2a;
+  --warning: #fbbf24;
+  --warning-soft: #44351b;
+  --danger: #f87171;
+  --danger-soft: #482526;
+  --info: #60a5fa;
+  --info-soft: #1d3455;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="corporate"] {
+  color-scheme: light;
+  --bg: #edf3f8;
+  --surface: #ffffff;
+  --surface-secondary: #f3f7fb;
+  --text: #183247;
+  --text-secondary: #607789;
+  --border: #d8e4ed;
+  --primary: #087e8b;
+  --primary-hover: #066773;
+  --primary-soft: #d9f1f2;
+  --success: #16804a;
+  --success-soft: #d9f5e5;
+  --warning: #a96008;
+  --warning-soft: #fff0d4;
+  --danger: #bd3434;
+  --danger-soft: #fde5e5;
+  --info: #2468ad;
+  --info-soft: #dcecff;
+  --shadow: 0 4px 20px rgba(24, 50, 71, 0.06);
+}
+
+[data-accent="blue"] {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-soft: #dbeafe;
+}
+
+[data-accent="green"] {
+  --primary: #16a34a;
+  --primary-hover: #15803d;
+  --primary-soft: #dcfce7;
+}
+
+[data-accent="purple"] {
+  --primary: #9333ea;
+  --primary-hover: #7e22ce;
+  --primary-soft: #f3e8ff;
+}
+
+[data-accent="orange"] {
+  --primary: #ea580c;
+  --primary-hover: #c2410c;
+  --primary-soft: #ffedd5;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --page-padding: 18px;
+    --header-height: 64px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --page-padding: 14px;
+  }
+}
